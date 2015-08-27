@@ -1,0 +1,49 @@
+[
+    {
+        "name": "preprocess",
+        "params": {
+            "images": [
+                {
+                    "bound": {
+                        "extent": [
+                            75,
+                            55
+                        ],
+                        "origin": [
+                            70,
+                            50
+                        ]
+                    },
+                    "eye_left": {
+                        "extent": [
+                            75,
+                            55
+                        ],
+                        "origin": [
+                            70,
+                            50
+                        ]
+                    },
+                    "eye_right": {
+                        "extent": [
+                            75,
+                            55
+                        ],
+                        "origin": [
+                            70,
+                            50
+                        ]
+                    }
+                }
+            ],
+            "size": [
+                128,
+                128
+            ]
+        },
+        "returns": "ok"
+    },
+    {
+        "name": "notifyServer"
+    }
+]
